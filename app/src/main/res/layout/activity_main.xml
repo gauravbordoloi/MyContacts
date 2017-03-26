@@ -20,4 +20,26 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_contacts"
+            android:textSize="18sp"
+            android:layout_margin="6dp"
+            android:text="ADD CONTACT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/delete_all_contacts"
+            android:textSize="18sp"
+            android:layout_margin="6dp"
+            android:text="DELETE ALL CONTACT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
 </RelativeLayout>

@@ -58,6 +58,7 @@ public class ContactAdapter extends BaseAdapter{
         holder.Phone.setText(list.get(position).getPhone());
         if (list.get(position).getPhotoThumbnailUri() != null)
         holder.profilePic.setImageURI(Uri.parse(list.get(position).getPhotoThumbnailUri()));
+        else holder.profilePic.setImageDrawable(context.getResources().getDrawable(R.drawable.sample));
 
         return convertView;
     }
